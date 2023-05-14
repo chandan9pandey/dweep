@@ -1,0 +1,31 @@
+.Footer {
+	height: 30vh;
+	background-color: #282828;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-content {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 900px;
+	/* border: 1px solid red; */
+	line-height: 160%;
+}
+.left {
+	position: relative;
+	/* border: 1px solid red; */
+	left: -40px;
+}
+.right {
+	/* border: 1px solid red; */
+	text-align: right;
+}
+li {
+	list-style: none;
+	color: #fff;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+}
